@@ -1,4 +1,6 @@
 
+/* Jumbotron */
+
 .jumbotron {
     background-image: url("../images/flowerydonut-crop.jpg");
     min-height: 750px;
@@ -17,6 +19,7 @@
     background-color: blanchedalmond;
     margin: 30vh 0;
     display: flex;
+    justify-content: center;
 }
 
 .jumbotron h1 {
@@ -26,31 +29,65 @@
     align-content: center;
 }
 
-.navbar {
-    padding: 0;
-    margin: 0;
+
+.row {
+    justify-content: center;
+    height: 25em;
 }
-
-
-
-
 
 .col {
     background-color: blanchedalmond;
     border: 2px solid purple;
+
 }
 
-@media only screen and (max-width: 1200px) {
 
+/* Footer */
+
+.border {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+}
+.footer-links ul a {
+    flex-wrap: nowrap;
+    color: purple;
+    justify-content: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 300px) {
+    #logodiv {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15%;
+    }
+    
 }
 
 @media only screen and (max-width: 900px) {
-
+    #logodiv {
+        display: flex;
+        justify-content: flex-end;
+        gap: 30%;
+}
 }
 
-@media only screen and (max-width: 600px) {
-    .navbar-logo a {
-        justify-content: center;
-    }
+/* @media only screen and (min-width: 901px) {
+    #logodiv {
+        display: flex;
+        justify-content: flex-end;
+        gap: 30%;
 }
-
+} */

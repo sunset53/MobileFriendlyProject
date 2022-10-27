@@ -1,5 +1,4 @@
 
-
 .jumbotron {
     background-image: url("../images/flowerydonut-crop.jpg");
     min-height: 750px;
@@ -9,10 +8,22 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    padding: 0;
+}
+
+.jumbotron-text-container {
+    height: 10%;
+    width: 100%;
+    background-color: blanchedalmond;
+    margin: 30vh 0;
+    display: flex;
 }
 
 .jumbotron h1 {
     align-self: center;
+    color: purple;
+    font-size:60px;
+    align-content: center;
 }
 
 .navbar {
@@ -26,5 +37,20 @@
 
 .col {
     background-color: blanchedalmond;
-    border: 2px solid black;
+    border: 2px solid purple;
 }
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-logo a {
+        justify-content: center;
+    }
+}
+

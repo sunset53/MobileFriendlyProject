@@ -125,6 +125,12 @@
 
 }
 
+@media only screen and (max-width: 575px) {
+    #about {
+        margin-top:325px;
+    }
+}
+
 /* @media only screen and (min-width: 901px) {
     #logodiv {
         display: flex;

@@ -68,19 +68,20 @@
     background-color: blanchedalmond;
     width: 100%;
     height: 10%;
+    align-items: baseline;
 }
 
-.footer-links ul {
+.footer-links {
+    margin-right:20px;
+}
+
+.footer-links a {
     list-style-type: none;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    gap: 40%;
+    margin-right:8px;
 }
-.footer-links ul a {
-    flex-wrap: nowrap;
+.footer-links a {
     color: purple;
-    justify-content: center;
 }
 
 .credits p {

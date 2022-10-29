@@ -3,6 +3,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+
 /* Jumbotron */
 
 .jumbotron {
@@ -27,13 +28,15 @@
 }
 
 .jumbotron h1 {
-    align-self: center;
+    align-content: center;
     color: purple;
-    font-size: medium;
-    font-weight: 200;
-    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+/* Grid Boxes */
 
 .row {
     flex-direction: row;
@@ -64,6 +67,7 @@
 .form-label {
     font-family: 'Caveat', cursive;
 }
+
 
 /* About Section */
 
@@ -104,6 +108,7 @@
     font-size: 10px;
 }
 
+
 /* Media Queries */
 
 @media only screen and (max-width: 300px) {
@@ -123,6 +128,12 @@
         position: sticky;
     }
     
+}
+
+@media only screen and (max-width: 575px) {
+    #about {
+        margin-top: 325px;
+    }
 }
 
 @media only screen and (max-width: 900px) {

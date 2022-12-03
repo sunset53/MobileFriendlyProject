@@ -96,12 +96,7 @@
 .footer-links a {
     list-style-type: none;
     text-decoration: none;
-    /* display: flex;
-    justify-content: center; */
-    /* gap: 40%; */
-    /* flex-wrap: nowrap; */
     color: purple;
-    /* justify-content: center; */
 }
 
 .credits p {
@@ -143,19 +138,5 @@
         gap: 30%;
     }
 
-    /* .row {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    } */
-    
-
 }
 
-/* @media only screen and (min-width: 901px) {
-    #logodiv {
-        display: flex;
-        justify-content: flex-end;
-        gap: 30%;
-}
-} */
